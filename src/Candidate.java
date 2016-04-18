@@ -20,8 +20,10 @@ import database.DataBase;
  */
 public class Candidate {
 
+	/**Holds all Tweets for canidate*/
 	private ArrayList<Tweet> tweets;
 
+	/**Candidate's name*/
 	private String name;
 
 	public Candidate(String name){
@@ -30,6 +32,7 @@ public class Candidate {
 
 	}
 
+	
 	public void addTweet(Tweet e){
 		tweets.add(e);
 	}
